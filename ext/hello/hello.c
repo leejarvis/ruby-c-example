@@ -1,4 +1,7 @@
-#include "hello.h"
+#include "ruby.h"
+
+VALUE Hello;
+VALUE hello_world(VALUE self);
 
 void Init_hello()
 {
