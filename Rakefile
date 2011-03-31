@@ -1,5 +1,14 @@
-require 'rake/extensiontask'
+# -*- ruby -*-
 
-Rake::ExtensionTask.new 'hello' do |ext|
-  ext.lib_dir = 'lib/hello'
+require "rubygems"
+require "hoe"
+
+Hoe.plugin :isolate
+Hoe.plugin :minitest
+Hoe.plugin :compiler
+
+Hoe.spec "hello_c" do
+  developer "Ryan Davis", "ryand-ruby@zenspider.com"
 end
+
+# vim: syntax=ruby

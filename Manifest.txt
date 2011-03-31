@@ -1,0 +1,8 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+ext/hello_c/extconf.rb
+ext/hello_c/hello_c.c
+lib/hello_c.rb
+test/test_hello.rb

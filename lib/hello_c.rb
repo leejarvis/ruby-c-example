@@ -1,5 +1,5 @@
-require 'hello/hello'
+require 'hello_c/hello_c'
 
-class Hello
+class HelloC
   VERSION = '0.0.1'
 end
