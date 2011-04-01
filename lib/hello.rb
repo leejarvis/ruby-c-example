@@ -1,5 +1,5 @@
 require 'hello/hello'
 
-module Hello
+class Hello
   VERSION = '0.0.1'
 end
